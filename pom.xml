@@ -596,7 +596,7 @@
                         <target>1.6</target>
                         <showDeprecation>true</showDeprecation>
                         <!-- added forkMode, the full GitHub mvn compile seems to blow up with an OutOfMemoryError -->
-                        <fork>true</fork>
+                        <fork>false</fork>
                     </configuration>
                     <!--
                     <dependencies>
